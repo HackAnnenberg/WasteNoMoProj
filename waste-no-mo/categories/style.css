@@ -35,6 +35,13 @@ h3 {
 	display:inline !important;
 }
 
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  text-align:right;
+  padding-right:3%;
+  font-size:20px;
+}
+
 a {
 	color:#44c767;
 	text-decoration:none;
