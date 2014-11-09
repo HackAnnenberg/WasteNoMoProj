@@ -4,7 +4,7 @@ function breadFunction() {
 	console.log("myFunction()");
     alert("You've added bread!");
     var today = new Date(); //today's date
-    var date = getFutureTime(2,630,000); //future timing
+    var date = getFutureTime(2630000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Bread has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -78,7 +78,7 @@ function quinoaFunction() {
     console.log("myFunction()");
     alert("You've added quinoa!");
     var today = new Date(); //today's date
-    var date = getFutureTime(2,419,000); //future timing
+    var date = getFutureTime(2419000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Quinoa has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -152,7 +152,7 @@ function riceFunction() {
     console.log("myFunction()");
     alert("You've added rice!");
     var today = new Date(); //today's date
-    var date = getFutureTime(5,259,000); //future timing
+    var date = getFutureTime(5259000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Rice has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -226,7 +226,7 @@ function tortillaFunction() {
     console.log("myFunction()");
     alert("You've added tortilla!");
     var today = new Date(); //today's date
-    var date = getFutureTime(604,800); //future timing
+    var date = getFutureTime(604800); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Tortillas have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }

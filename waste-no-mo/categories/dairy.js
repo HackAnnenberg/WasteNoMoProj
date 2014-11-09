@@ -4,7 +4,7 @@ function butterFunction() {
 	console.log("myFunction()");
     alert("You've added butter!");
     var today = new Date(); //today's date
-    var date = getFutureTime(2,630,000); //future timing
+    var date = getFutureTime(2630000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Butter has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -78,7 +78,7 @@ function cheeseFunction() {
     console.log("myFunction()");
     alert("You've added cheese!");
     var today = new Date(); //today's date
-    var date = getFutureTime(2,419,000); //future timing
+    var date = getFutureTime(2419000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Cheese has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -152,7 +152,7 @@ function icecreamFunction() {
     console.log("myFunction()");
     alert("You've added ice cream!");
     var today = new Date(); //today's date
-    var date = getFutureTime(5,259,000); //future timing
+    var date = getFutureTime(5259000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Ice cream has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -226,7 +226,7 @@ function milkFunction() {
     console.log("myFunction()");
     alert("You've added milk!");
     var today = new Date(); //today's date
-    var date = getFutureTime(604,800); //future timing
+    var date = getFutureTime(604800); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Milk has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -300,7 +300,7 @@ function yogurtFunction() {
     console.log("myFunction()");
     alert("You've added yogurt!");
     var today = new Date(); //today's date
-    var date = getFutureTime(1,210,000); //future timing
+    var date = getFutureTime(1210000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Yogurt has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
