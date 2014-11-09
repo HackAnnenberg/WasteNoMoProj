@@ -594,7 +594,7 @@ function loadPeachCookies() {
 
 function tomatoFunction() {
     console.log("myFunction()");
-    alert("You've added an apple!");
+    alert("You've added a tomato!");
     var today = new Date(); //today's date -- 2 weeks
     var date = getFutureTime(907200); //future timing
     setCookie("groceries", date.toUTCString(), 100);
