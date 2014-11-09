@@ -61,7 +61,7 @@ function loadButterCookies() {
 
 		else {
 		alert('Butter expired while you were gone. Oh no! :(');
-		deleteCookies("groceries");       
+		deleteCookies("groceries");      
 		}
 
 	} 
@@ -78,7 +78,7 @@ function cheeseFunction() {
     console.log("myFunction()");
     alert("You've added cheese!");
     var today = new Date(); //today's date
-    var date = getFutureTime(2419000); //future timing
+    var date = getFutureTime(5259000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Cheese has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
@@ -300,7 +300,7 @@ function yogurtFunction() {
     console.log("myFunction()");
     alert("You've added yogurt!");
     var today = new Date(); //today's date
-    var date = getFutureTime(1210000); //future timing
+    var date = getFutureTime(5259000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Yogurt has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }

@@ -226,7 +226,7 @@ function berryFunction() {
     console.log("myFunction()");
     alert("You've added berries!");
     var today = new Date(); //today's date
-    var date = getFutureTime(518400); //future timing -- 5 to 7
+    var date = getFutureTime(432000); //future timing -- 5 to 7
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Berries have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
