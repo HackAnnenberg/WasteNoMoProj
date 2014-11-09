@@ -76,7 +76,7 @@ function loadBeansCookies() {
 
 function BeefFunction() {
     console.log("myFunction()");
-    alert("You've added Beef!");
+    alert("You've added beef!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
@@ -150,7 +150,7 @@ function loadBeefCookies() {
 
 function EggFunction() {
     console.log("myFunction()");
-    alert("You've added Eggs!");
+    alert("You've added eggs!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
@@ -222,9 +222,9 @@ function loadEggCookies() {
 
 /*CHICKEN*/
 
-function ChickenFunction() {
+function chickenFunction() {
     console.log("myFunction()");
-    alert("You've added berries!");
+    alert("You've added chicken!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
@@ -370,7 +370,7 @@ function loadFishCookies() {
 
 /*HAM*/
 
-function HamFunction() {
+function hamFunction() {
     console.log("myFunction()");
     alert("You've added ham!");
     var today = new Date(); //today's date
@@ -446,7 +446,7 @@ function loadHamCookies() {
 
 function porkFunction() {
 	console.log("myFunction()");
-    alert("You've added an pork!");
+    alert("You've added pork!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
@@ -520,7 +520,7 @@ function loadPorkCookies() {
 
 function shrimpFunction() {
 	console.log("myFunction()");
-    alert("You've shrimp!");
+    alert("You've added shrimp!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
@@ -734,6 +734,4 @@ function loadTurkeyCookies() {
 
 	}
 	
-}
-
 }
