@@ -43,7 +43,7 @@ function deleteCookies(cname) {
 	setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadAppleCookies() {
 	console.log("loadCookies()");
 
 	var time = getCookie("groceries");
@@ -594,7 +594,7 @@ function loadCookies() {
 
 function tomatoFunction() {
     console.log("myFunction()");
-    alert("You've added a tomato!");
+    alert("You've added an apple!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
