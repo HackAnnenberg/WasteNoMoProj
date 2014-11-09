@@ -1,14 +1,14 @@
 //vegetables.js
 
-/*APPLES*/
+/*ASPARAGUS*/
 
-function appleFunction() {
+function asparagusFunction() {
 	console.log("myFunction()");
-    alert("You've added an apple!");
+    alert("You've added an asparagus!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Apples have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Asparaguses have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -45,7 +45,7 @@ function deleteCookies(cname) {
 	setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadAsparagusCookies() {
 	console.log("loadCookies()");
 
 	var time = getCookie("groceries");
@@ -56,13 +56,13 @@ function loadCookies() {
 		var timeDifference = date.getTime() - today.getTime();
 
 		if (timeDifference > 0) {
-		alert('Welcome back. Apples are still ok.');
-		window.setTimeout(function() {alert('Watch out -- Apples just expired'), 
+		alert('Welcome back. Asparaguses are still ok.');
+		window.setTimeout(function() {alert('Watch out -- Asparaguses just expired'), 
 			deleteCookies("groceries");}, timeDifference);
 		}
 
 		else {
-		alert('Apples expired while you were gone. Oh no! :(');
+		alert('Asparaguses expired while you were gone. Oh no! :(');
 		deleteCookies("groceries");
 		}
 
@@ -74,15 +74,15 @@ function loadCookies() {
 	
 }
 
-/*AVOCADOS*/
+/*BELL PEPPER*/
 
-function avocadoFunction() {
+function bellpepperFunction() {
     console.log("myFunction()");
-    alert("You've added an avocado!");
+    alert("You've added an Bell Pepper!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Avocados have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Bell pepers have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -119,7 +119,7 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadBellPepperCookies() {
     console.log("loadCookies()");
 
     var time = getCookie("groceries");
@@ -130,13 +130,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Avocados are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Avocados just expired'), 
+        alert('Welcome back. Bell peppers are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Bell peppers just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Avocados expired while you were gone. Oh no! :(');
+        alert('Bell peppers expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -148,15 +148,15 @@ function loadCookies() {
     
 }
 
-/*BANANAS*/
+/*BROCCOLI*/
 
-function bananaFunction() {
+function broccoliFunction() {
     console.log("myFunction()");
-    alert("You've added a banana!");
+    alert("You've added a broccoli!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Bananas have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Broccoli have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -193,8 +193,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadBroccoliCookies() {
+    console.log("loadBroccoliCookies()");
 
     var time = getCookie("groceries");
 
@@ -204,13 +204,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Bananas are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Bananas just expired'), 
+        alert('Welcome back. Broccoli are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Broccoli just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Bananas expired while you were gone. Oh no! :(');
+        alert('Broccoli expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -222,15 +222,15 @@ function loadCookies() {
     
 }
 
-/*BERRIES*/
+/*CABBAGE*/
 
-function berryFunction() {
+function cabbageFunction() {
     console.log("myFunction()");
-    alert("You've added berries!");
+    alert("You've added cabbages!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Berries have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Cabbages have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -267,8 +267,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadCabbageCookies() {
+    console.log("loadCabbageCookies()");
 
     var time = getCookie("groceries");
 
@@ -278,13 +278,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Berries are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Berries just expired'), 
+        alert('Welcome back. Cabbages are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Cabbages just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Berries expired while you were gone. Oh no! :(');
+        alert('Cabbages expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -296,15 +296,15 @@ function loadCookies() {
     
 }
 
-/*GRAPES*/
+/*CARROT*/
 
-function grapeFunction() {
+function carrotFunction() {
     console.log("myFunction()");
-    alert("You've added grapes!");
+    alert("You've added carrots!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Grapes have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Carrots have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -341,8 +341,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadCarrotCookies() {
+    console.log("loadCarrotCookies()");
 
     var time = getCookie("groceries");
 
@@ -352,13 +352,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Grapes are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Grapes just expired'), 
+        alert('Welcome back. Carrots are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Carrots just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Grapes expired while you were gone. Oh no! :(');
+        alert('Carrots expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -370,15 +370,15 @@ function loadCookies() {
     
 }
 
-/*CITRUS*/
+/*CORN*/
 
-function citrusFunction() {
+function cornFunction() {
     console.log("myFunction()");
-    alert("You've added citrus!");
+    alert("You've added corn!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Citrus have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Corn have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -415,8 +415,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadCornCookies() {
+    console.log("loadCornCookies()");
 
     var time = getCookie("groceries");
 
@@ -426,13 +426,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Citrus are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Citrus just expired'), 
+        alert('Welcome back. Corn are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Corn just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Citrus expired while you were gone. Oh no! :(');
+        alert('Corn expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -444,15 +444,15 @@ function loadCookies() {
     
 }
 
-/*ORANGES*/
+/*KALE*/
 
-function orangeFunction() {
+function kaleFunction() {
     console.log("myFunction()");
-    alert("You've added an orange!");
+    alert("You've added kale!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Oranges have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Kale has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -489,8 +489,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadKaleCookies() {
+    console.log("loadKaleCookies()");
 
     var time = getCookie("groceries");
 
@@ -500,13 +500,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Oranges are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Oranges just expired'), 
+        alert('Welcome back. Kale is still ok.');
+        window.setTimeout(function() {alert('Watch out -- Kale just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Oranges expired while you were gone. Oh no! :(');
+        alert('Kale expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -518,15 +518,15 @@ function loadCookies() {
     
 }
 
-/*PEACHES*/
+/*MUSHROOM*/
 
-function peachFunction() {
+function mushroomFunction() {
     console.log("myFunction()");
-    alert("You've added a peach!");
+    alert("You've added a mushroom!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Peaches have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Mushrooms have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -563,8 +563,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadMushroomCookies() {
+    console.log("loadMushroomCookies()");
 
     var time = getCookie("groceries");
 
@@ -574,13 +574,13 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Peaches are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Peaches just expired'), 
+        alert('Welcome back. Mushrooms are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Mushrooms just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Peaches expired while you were gone. Oh no! :(');
+        alert('Mushrooms expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
@@ -592,15 +592,15 @@ function loadCookies() {
     
 }
 
-/*TOMATOES*/
+/*ONION*/
 
-function tomatoFunction() {
+function onionFunction() {
     console.log("myFunction()");
-    alert("You've added a tomato!");
+    alert("You've added an onion!");
     var today = new Date(); //today's date
     var date = getFutureTime(0.2); //future timing
     setCookie("groceries", date.toUTCString(), 100);
-    window.setTimeout(function() {alert('Tomatoes have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+    window.setTimeout(function() {alert('Onions have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
 
 function getFutureTime(minutes) {
@@ -637,8 +637,8 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
-    console.log("loadCookies()");
+function loadOnionCookies() {
+    console.log("loadOnionCookies()");
 
     var time = getCookie("groceries");
 
@@ -648,13 +648,87 @@ function loadCookies() {
         var timeDifference = date.getTime() - today.getTime();
 
         if (timeDifference > 0) {
-        alert('Welcome back. Tomatoes are still ok.');
-        window.setTimeout(function() {alert('Watch out -- Tomatoes just expired'), 
+        alert('Welcome back. Onions are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Onions just expired'), 
             deleteCookies("groceries");}, timeDifference);
         }
 
         else {
-        alert('Tomatoes expired while you were gone. Oh no! :(');
+        alert('Onions expired while you were gone. Oh no! :(');
+        deleteCookies("groceries");
+        }
+
+    } 
+
+    else {
+
+    }
+    
+}
+
+/*POTATO*/
+
+function potatoFunction() {
+    console.log("myFunction()");
+    alert("You've added a potato!");
+    var today = new Date(); //today's date
+    var date = getFutureTime(0.2); //future timing
+    setCookie("groceries", date.toUTCString(), 100);
+    window.setTimeout(function() {alert('Potatoes have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
+}
+
+function getFutureTime(minutes) {
+    console.log("getFutureTime()");
+    //gives date however many days from current date
+    var today = new Date();
+    today.setTime(today.getTime() + (minutes*60*1000));
+    return today;
+}
+
+function setCookie(cname, cvalue, exdays) {
+    console.log("setCookie()");
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+    console.log(document.cookie);
+}
+
+function getCookie(cname) {
+    console.log("getCookie()");
+    console.log(cname);
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+
+function deleteCookies(cname) {
+    setCookie(cname, "", -1);
+}
+
+function loadPotatoCookies() {
+    console.log("loadPotatoCookies()");
+
+    var time = getCookie("groceries");
+
+    if (time != "") {
+        var date = new Date(time);
+        var today = new Date();
+        var timeDifference = date.getTime() - today.getTime();
+
+        if (timeDifference > 0) {
+        alert('Welcome back. Potatoes are still ok.');
+        window.setTimeout(function() {alert('Watch out -- Potatoes just expired'), 
+            deleteCookies("groceries");}, timeDifference);
+        }
+
+        else {
+        alert('Potatoes expired while you were gone. Oh no! :(');
         deleteCookies("groceries");
         }
 
