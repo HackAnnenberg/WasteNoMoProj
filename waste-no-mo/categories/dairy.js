@@ -4,7 +4,7 @@ function butterFunction() {
 	console.log("myFunction()");
     alert("You've added butter!");
     var today = new Date(); //today's date
-    var date = getFutureTime(2630000); //future timing
+    var date = getFutureTime(5259000); //future timing
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Butter has expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
