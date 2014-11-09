@@ -21,6 +21,7 @@ body {
   	 -moz-background-size: cover;
      -o-background-size: cover;
       background-size: cover;
+    padding-top:5%;
 	} 
 </style>
 
@@ -63,6 +64,7 @@ body {
            if (response.authResponse) 
            {
                 getUserInfo();
+                //Redirect();
             } else 
             {
              console.log('User cancelled login or did not fully authorize.');
@@ -75,8 +77,9 @@ body {
         FB.api('/me', function(response) {
  	  
  	  //Clean this up, redirect to next page	
-      var str="<b>Name</b> : "+response.name+"<br>";
-      	  str += "<a href='main.html'><b>Let's go</b></a><br>"
+ 	  //Figure out why weird carrot is going
+      var str="Hey "+response.name+"! <br>";
+      	  str += "<a href='main.html'><b>Let's get going >></b></a><br>"
           /*str +="<b>Link: </b>"+response.link+"<br>";
           str +="<b>Username:</b> "+response.username+"<br>";
           str +="<b>id: </b>"+response.id+"<br>";
@@ -98,6 +101,14 @@ body {
     });
  
     }*/
+
+    /*function Redirect()
+    {
+        FB.Event.subscribe('auth.login', function(response) {
+        alert("Logged in.. Redirecting you now...");
+        window.location = "http://www-scf.usc.edu/~saraclay/waste-no-mo/main.html";
+    }*/
+ 
 
     function Logout()
     {
@@ -160,6 +171,7 @@ $(document).ready(function() {
     <div class="login-content">
       <a class="close">x</a>
       <h3>Sign in</h3>
+      <br><br>
       <div id="status">
 <img src="img/fb-sign.png" style="cursor:pointer;" onclick="Login();" onlogin="checkLoginState();"/>
 </div>

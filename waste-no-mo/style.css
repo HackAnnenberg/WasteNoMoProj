@@ -1,6 +1,16 @@
+/*ORGANIZE YOUR CSS*/
+
 body {
 	background-color: #44c767;
-    padding-top:75px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+}
+
+input,
+select,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 h1 {
@@ -8,6 +18,26 @@ h1 {
 	text-align:center;
 	font-size:150px;
 	line-height:160px;
+
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align:right;
+	font-size:70px;
+	color:#fff;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color:#44c767;
+	text-align:left;
+	display:inline !important;
+}
+
+a {
+	color:#44c767;
+	text-decoration:none;
 }
 
 .myButton {
@@ -187,3 +217,42 @@ form button {
 	text-decoration: none;
 	cursor:pointer;
 	}
+
+#top-header {
+	height:5%;
+}
+
+.title {
+	float:right;
+	padding-top:2%;
+	padding-right:2%;
+}
+
+.selection {
+	border-radius: 5px ;
+	-moz-border-radius: 5px ;
+	-webkit-border-radius: 5px ;
+	width:95%;
+	height:20%;
+	margin-left:2%;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.logo {
+	float:left;
+	padding-right:2%;
+}
+
+.selection-text {
+	padding-top:3%;
+	padding-left: 3%;
+}
+
+.selection-text-alignment{	
+	padding-top:3%;
+	display:inline !important;
+}
+
+.chevron-logo {
+	float:right;
+}
