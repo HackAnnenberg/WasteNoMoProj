@@ -3,11 +3,11 @@ WasteNoMoProj
 
 HackAnnenberg's Hack SC 2014 Project
 Team Members:
-1. Sara Clayton (Team Captain)
-2. Judy Lee 
-3. Kate Guarino
-4. Allison Toh
-5. Kate Oh
+1. Sara Clayton (Team Captain)</br>
+2. Judy Lee <br>
+3. Kate Guarino <br>
+4. Allison Toh <br>
+5. Kate Oh <br>
 
 Don't you hate having to throw out spoiled food from your refrigerator? Simply because you don't have an easy and efficient way to keep track of when your food will expire?
 
