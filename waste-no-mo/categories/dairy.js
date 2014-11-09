@@ -43,7 +43,7 @@ function deleteCookies(cname) {
 	setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadButterCookies() {
 	console.log("loadCookies()");
 
 	var time = getCookie("groceries");
@@ -117,7 +117,7 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadCheeseCookies() {
     console.log("loadCookies()");
 
     var time = getCookie("groceries");
@@ -191,7 +191,7 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadIceCreamCookies() {
     console.log("loadCookies()");
 
     var time = getCookie("groceries");
@@ -265,7 +265,7 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadMilkCookies() {
     console.log("loadCookies()");
 
     var time = getCookie("groceries");
@@ -339,7 +339,7 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadYogurtCookies() {
     console.log("loadCookies()");
 
     var time = getCookie("groceries");
