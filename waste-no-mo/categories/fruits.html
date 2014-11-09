@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <title>Waste No Mo'</title>
 <link rel="stylesheet" href="style.css" />
+<script src="fruits.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 <script>
@@ -13,8 +14,7 @@
 </script>
 
 </head>
-
-<body>
+<body onload="loadCookies()">
 <div id="top-header">
 <div class="logo">
 	<!--clean up code for this-->
@@ -29,7 +29,7 @@
 <div class="selection">
 	<div class="logo"><img src="img/Apple.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>APPLES</h3>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png" width="75px"></div></div>
+		<a href="#" onclick="appleFunction()"><div class="chevron-logo"><img src="img/plus-icon.png" width="75px"></div></div>
 		</div></a>
 	
 	</div><!--end selection-->
@@ -38,56 +38,56 @@
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Avocado.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>AVOCADOS</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="avocadoFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Banana.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>BANANAS</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="bananaFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Blueberry.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>BERRIES</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="berryFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Grape.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>GRAPES</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="grapeFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/LemonLime.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>LEMONS & LIMES</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="citrusFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Orange.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>ORANGES</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="orangeFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Peach.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>PEACHES</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="peachFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 <div class="selection">
 	<!--need logo for urgent-->
 	<div class="logo"><img src="img/Tomato.png" height="125px" width="125px" topo="4.7em;"></div>
 	<div class="selection-text"><div class="selection-text-alignment"><h3>TOMATOES</h3></div>
-		<a href="#"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
+		<a href="#" onclick="tomatoFunction()"><div class="chevron-logo"><img src="img/plus-icon.png"  width="75px"></div></div></a>
 	</div><!--end selection-->
 	<br>
 

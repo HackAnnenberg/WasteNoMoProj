@@ -12,6 +12,13 @@
 */
 </script>
 
+<script>
+    function Logout()
+    {
+        FB.logout(function(){document.location.reload();});
+    }*/
+</script>
+
 </head>
 
 <body>
@@ -39,6 +46,9 @@
 	<div class="selection-text"><div class="selection-text-alignment"><h3>URGENT</h3></div>
 		<a href="#"><div class="chevron-logo"><img src="img/chevron-logo.png"  width="125px"></div></div></a>
 	</div><!--end selection-->
+
+<input type='button' value='Logout' onclick='Logout();'/>
+
 </body>
 
 </html>
