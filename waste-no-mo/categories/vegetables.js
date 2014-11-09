@@ -226,7 +226,7 @@ function loadBroccoliCookies() {
 
 function cabbageFunction() {
     console.log("myFunction()");
-    alert("You've added cabbages!");
+    alert("You've added cabbage!");
     var today = new Date(); //today's date
     var date = getFutureTime(619200); //future timing
     setCookie("groceries", date.toUTCString(), 100);
