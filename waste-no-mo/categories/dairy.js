@@ -61,7 +61,7 @@ function loadButterCookies() {
 
 		else {
 		alert('Butter expired while you were gone. Oh no! :(');
-		deleteCookies("groceries");
+		deleteCookies("groceries");       
 		}
 
 	} 

@@ -635,7 +635,7 @@ function deleteCookies(cname) {
     setCookie(cname, "", -1);
 }
 
-function loadCookies() {
+function loadTomatoCookies() {
     console.log("loadCookies()");
 
     var time = getCookie("groceries");
