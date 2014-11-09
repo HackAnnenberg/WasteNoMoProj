@@ -516,13 +516,13 @@ function loadOrangeCookies() {
     
 }
 
-/*PEACHES*/
+/*PEACH*/
 
 function peachFunction() {
     console.log("myFunction()");
     alert("You've added a peach!");
     var today = new Date(); //today's date
-    var date = getFutureTime(432000); //future timing -- 5 days
+    var date = getFutureTime(432000); //future timing -- 2 to 7 days
     setCookie("groceries", date.toUTCString(), 100);
     window.setTimeout(function() {alert('Peaches have expired!'); deleteCookies("groceries")}, date.getTime() - today.getTime());
 }
