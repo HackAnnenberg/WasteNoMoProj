@@ -194,7 +194,7 @@ function deleteCookies(cname) {
 }
 
 function loadBroccoliCookies() {
-    console.log("loadBroccoliCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -268,7 +268,7 @@ function deleteCookies(cname) {
 }
 
 function loadCabbageCookies() {
-    console.log("loadCabbageCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -342,7 +342,7 @@ function deleteCookies(cname) {
 }
 
 function loadCarrotCookies() {
-    console.log("loadCarrotCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -416,7 +416,7 @@ function deleteCookies(cname) {
 }
 
 function loadCornCookies() {
-    console.log("loadCornCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -490,7 +490,7 @@ function deleteCookies(cname) {
 }
 
 function loadKaleCookies() {
-    console.log("loadKaleCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -564,7 +564,7 @@ function deleteCookies(cname) {
 }
 
 function loadMushroomCookies() {
-    console.log("loadMushroomCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -638,7 +638,7 @@ function deleteCookies(cname) {
 }
 
 function loadOnionCookies() {
-    console.log("loadOnionCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
@@ -712,7 +712,7 @@ function deleteCookies(cname) {
 }
 
 function loadPotatoCookies() {
-    console.log("loadPotatoCookies()");
+    console.log("loadCookies()");
 
     var time = getCookie("groceries");
 
