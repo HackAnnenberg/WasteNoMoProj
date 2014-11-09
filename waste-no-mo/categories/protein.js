@@ -74,7 +74,7 @@ function loadBeansCookies() {
 
 /*BEEF*/
 
-function BeefFunction() {
+function beefFunction() {
     console.log("myFunction()");
     alert("You've added beef!");
     var today = new Date(); //today's date
@@ -148,7 +148,7 @@ function loadBeefCookies() {
 
 /*EGG*/
 
-function EggFunction() {
+function eggFunction() {
     console.log("myFunction()");
     alert("You've added eggs!");
     var today = new Date(); //today's date
