@@ -19,7 +19,7 @@ function getFutureTime(minutes) {
 
 function setCookie(cname, cvalue, exdays) {
 	console.log("setCookie()");
-    var d = new Date();
+    var d = new Date(); 
     d.setTime(d.getTime() + (exdays*24*60*60*1000)); //seconds
     var expires = "expires="+d.toUTCString();
     document.cookie = cname + "=" + cvalue + "; " + expires;
